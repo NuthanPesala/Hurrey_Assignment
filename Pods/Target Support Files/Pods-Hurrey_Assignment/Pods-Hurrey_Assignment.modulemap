@@ -1,0 +1,6 @@
+framework module Pods_Hurrey_Assignment {
+  umbrella header "Pods-Hurrey_Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
