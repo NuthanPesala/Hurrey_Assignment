@@ -7,6 +7,6 @@ target 'Hurrey_Assignment' do
 
   # Pods for Hurrey_Assignment
    pod 'GoogleMaps'
-
+   pod 'Google-Maps-iOS-Utils'
 
 end

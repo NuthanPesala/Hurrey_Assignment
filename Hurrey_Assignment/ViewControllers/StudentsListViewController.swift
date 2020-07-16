@@ -30,7 +30,7 @@ class StudentsListViewController: UIViewController {
     @objc func getAllLocations() {
            let mapVC = self.storyboard?.instantiateViewController(identifier: "MapViewController") as! MapViewController
            mapVC.studentData = studentData
-           mapVC.isFromSchool = true
+           mapVC.isClustering = true
         self.navigationController?.pushViewController(mapVC, animated: true)
        }
     
